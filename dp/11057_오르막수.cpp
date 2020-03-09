@@ -1,4 +1,5 @@
 #include<iostream>
+#include<memory.h>
 
 using namespace std;
 
@@ -31,5 +32,6 @@ int main() {
 	for (int i = 0; i < 10; i++) {
 		sum += dp[i][n];
 	}
-	cout << sum;
+	cout << sum%10007;
 }
+//header
