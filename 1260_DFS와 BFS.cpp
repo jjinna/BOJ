@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/1260
+//DFSì™€ BFS
+
 #include<iostream>
 #include<vector>
 #include<stack>
@@ -55,7 +58,7 @@ int main() {
 		graph[node2].push_back(node1);
 	}
 
-	//Á¤·Ä
+	//ï¿½ï¿½ï¿½ï¿½
 	for (int i = 1; i <= N; i++) {
 		sort(graph[i].begin(), graph[i].end());
 	}
@@ -70,4 +73,4 @@ int main() {
 	BFS(graph,visit,V);
 }
 
-//2Â÷¿ø º¤ÅÍ Á¤·Ä
+//2ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½

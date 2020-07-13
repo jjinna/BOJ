@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/1780
+//종이의개수
+
 #include<iostream>
 #include<vector>
 using namespace std;

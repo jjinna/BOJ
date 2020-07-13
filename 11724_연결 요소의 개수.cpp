@@ -1,3 +1,6 @@
+//https://www.acmicpc.net/problem/11724
+//11724  연결요소의 개수
+
 #include<iostream>
 #include<vector>
 #include<stack>
